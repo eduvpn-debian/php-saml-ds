@@ -1,0 +1,32 @@
+{
+    "authors": [
+        {
+            "email": "fkooman@tuxed.net",
+            "name": "Fran\u00e7ois Kooman"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "fkooman\\SAML\\DS\\": "src/",
+            "fkooman\\SAML\\DS\\Tests\\": "tests/"
+        }
+    },
+    "description": "SAML Discovery Service",
+    "license": "Apache-2.0",
+    "name": "fkooman/php-saml-ds",
+    "require": {
+        "ext-curl": "*",
+        "ext-filter": "*",
+        "ext-imagick": "*",
+        "ext-json": "*",
+        "ext-pcre": "*",
+        "ext-spl": "*",
+        "ext-xml": "*",
+        "fkooman/secookie": "^1",
+        "php": ">=5.4.0",
+        "twig/twig": "^1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    }
+}

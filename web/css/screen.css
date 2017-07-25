@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Helvetica Neue", "Calibri Light", Roboto, sans-serif;
+    background-color: #eee;
+    color: #555;
+}
+
+p {
+    margin: 0.5em 0;
+}
+
+div.header {
+    background-color: #fff;
+    padding: 1em;
+    border-bottom: 2px #555 solid;
+    box-shadow: 0 1px 4px rgba(0,0,0,.2);
+    margin-bottom: 3em;
+}
+
+div.container {
+    max-width: 45em;
+    margin: 1em auto;
+    padding: 0.3em;
+    text-align: justify;
+}
+
+ul {
+    background-color: #fff;
+    list-style: none;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,.2);
+    margin-bottom: 2em;
+}
+
+ul li:not(:last-child) {
+    border-bottom: 2px solid #eee;
+}
+
+form.entity button {
+    width: 100%;
+    font-size: 100%;
+    text-align: left;
+    border: 0;
+    background-color: #fff;
+    padding: 1em;
+}
+
+form.entity button:hover, form.entity button:active, form.entity button:focus {
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
+}
+
+form.entity button::-moz-focus-inner {
+    /* firefox work around to disable ugly "outline" */
+    border: 0;
+}
+
+form.filter input {
+    width: 100%;
+    font-size: 100%;
+    margin-bottom: 1em;
+    padding: 0.7em 1em;
+    border: 0;
+    box-shadow: 0 1px 4px rgba(0,0,0,.2);
+}
+
+div.listHeader {
+    box-shadow: 0 1px 4px rgba(0,0,0,.2);
+    padding: 1em;
+    border: 0;
+    width: 100%;
+    background-color: #eee;
+    line-height: 1em;
+    font-size: 85%;
+}
+
+div.footer {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 85%;
+}
+
+div.footer, div.footer a {
+    color: #888;
+}
