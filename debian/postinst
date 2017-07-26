@@ -1,0 +1,8 @@
+#!/bin/sh
+
+#DEBHELPER
+
+chown www-data:www-data /var/lib/php-saml-ds
+chmod 700 /var/lib/php-saml-ds
+chmod 755 /usr/share/php-saml-ds/bin/generate.php
+

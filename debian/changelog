@@ -1,0 +1,11 @@
+php-saml-ds (1.0.1-1) stable; urgency=medium
+
+  * new upstream release
+
+ -- Gijs Molenaar (launchpad ppa build key) <gijs@pythonic.nl>  Tue, 25 Jul 2017 10:38:24 +0200
+
+php-saml-ds (0.3.0-1) stable; urgency=medium
+
+  * initial release
+
+ -- Gijs Molenaar (launchpad ppa build key) <gijs@pythonic.nl>  Fri, 23 Jun 2017 14:00:43 +0000
