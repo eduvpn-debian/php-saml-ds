@@ -16,7 +16,7 @@ Vcs-Git: git://github.com/fkooman/php-saml-ds.git
 Vcs-Browser: https://github.com/fkooman/php-saml-ds
 
 Package: php-saml-ds
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}, ${phpcomposer:Debian-require}
 Suggests: ${phpcomposer:Debian-suggest}
 Description: ${phpcomposer:description}
