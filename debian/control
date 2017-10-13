@@ -20,7 +20,6 @@ Architecture: all
 Depends: ${misc:Depends}, ${phpcomposer:Debian-require}
 Suggests: ${phpcomposer:Debian-suggest}
 Description: ${phpcomposer:description}
-
-
-
-
+ This is a SAML discovery service written in PHP. It follows Identity
+ Provider Discovery Service Protocol and Profile because
+ mod_auth_mellon seems to support that. So why not?
